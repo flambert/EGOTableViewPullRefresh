@@ -38,6 +38,7 @@
 @implementation EGORefreshTableHeaderView
 
 @synthesize delegate=_delegate;
+@synthesize state=_state;
 
 
 - (id)initWithFrame:(CGRect)frame arrowImageName:(NSString *)arrow textColor:(UIColor *)textColor  {
