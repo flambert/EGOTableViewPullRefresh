@@ -50,7 +50,7 @@ typedef enum{
 @property(nonatomic,assign) id <EGORefreshTableHeaderDelegate> delegate;
 @property(nonatomic,assign,readonly) EGOPullRefreshState state;
 
-- (id)initWithFrame:(CGRect)frame arrowImageName:(NSString *)arrow textColor:(UIColor *)textColor;
+- (id)initWithFrame:(CGRect)frame arrowImage:(UIImage *)arrowImage textColor:(UIColor *)textColor shadowColor:(UIColor *)shadowColor activityIndicatorStyle:(UIActivityIndicatorViewStyle)style;
 
 - (void)refreshLastUpdatedDate;
 - (void)egoRefreshScrollViewDidScroll:(UIScrollView *)scrollView;
